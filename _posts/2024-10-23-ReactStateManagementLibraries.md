@@ -10,9 +10,9 @@ I'm going to explore various React state management libraries, comparing their f
 
 Below is the data from the past 5 years, and it seems that React-Redux has been the most widely used.
 
-<img src="../../images/2024-10-23-ReactStateManagementLibraries/comparingonNpmtrends.png" alt="comparingonNpmTrends" style="zoom:50%;" />
+<!-- <img src="../../images/2024-10-23-ReactStateManagementLibraries/comparingonNpmtrends.png" alt="comparingonNpmTrends" style="zoom:50%;" />
 
-![comparingonNpmTrends](../../images/2024-10-23-ReactStateManagementLibraries/comparingonNpmtrends.png)
+![comparingonNpmTrends](../../images/2024-10-23-ReactStateManagementLibraries/comparingonNpmtrends.png) -->
 
 ![comparingonNpmTrends](/images/2024-10-23-ReactStateManagementLibraries/comparingonNpmtrends.png)
 
