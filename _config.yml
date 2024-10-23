@@ -113,7 +113,7 @@ analytics:
 # Site Author
 author:
   name: "May(Hyeyeon) Kim"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/mypic.png"
   bio: "I am May, and I am a web developer."
   location: "Seattle, WA"
   email:
