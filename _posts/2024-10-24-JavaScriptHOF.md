@@ -27,7 +27,7 @@ function greet() {
 }
 
 const greeting = greet();
-greeting("Alice"); //Hello Alice!
+greeting("May"); //Hello May!
 ```
 
 ## 2. Common HOFs
@@ -47,7 +47,8 @@ executes a function for each element in an array but does not return a new array
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
-numbers.forEach((num) => console.log(num * 2)); // 2, 4, 6
+numbers.forEach((num) => console.log(num * 2));
+// 2, 4, 6
 ```
 
 **filter**<br>
@@ -56,16 +57,18 @@ returns a new array with elements that satisfy a given condition.
 ```javascript
 const numbers = [1, 2, 3, 4];
 const evens = numbers.filter((num) => num % 2 === 0);
-console.log(evens); // [2,4]
+console.log(evens);
+// [2,4]
 ```
 
 **reduce**<br>
-reduces all elements of an array to a single accumulated value. (단일 누적값으로 줄여서 reduce라는 용어를 씀)
+reduces all elements of an array to a single accumulated value.
 
 ```javascript
 const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((acc, num) => acc + num, 0);
-console.log(sum); // 10
+console.log(sum);
+// 10
 ```
 
 **some**<br>
@@ -73,7 +76,8 @@ checks if at least one element in the array meets a condition, returning `true` 
 
 ```javascript
 const numbers = [1, 2, 3];
-const hasEven = numbers.some((num) => num % 2 === 0); // true (2 is even)
+const hasEven = numbers.some((num) => num % 2 === 0);
+// true (2 is even)
 ```
 
 **every**<br>
@@ -81,7 +85,8 @@ checks if all elements meet a condition, returning `true` only if they all do; o
 
 ```javascript
 const numbers = [1, 2, 3];
-const allPositive = numbers.every((num) => num > 0); // true (all numbers are positive)
+const allPositive = numbers.every((num) => num > 0);
+// true (all numbers are positive)
 ```
 
 **find**<br>
@@ -89,7 +94,8 @@ returns the first element that satisfies a condition, or `undefined` if none mee
 
 ```javascript
 const numbers = [1, 2, 3, 4];
-const firstEven = numbers.find((num) => num % 2 === 0); // 2 (first even number)
+const firstEven = numbers.find((num) => num % 2 === 0);
+// 2 (first even number)
 ```
 
 **sort**<br>
@@ -98,7 +104,8 @@ Note: sort modifies the original array.
 
 ```javascript
 const numbers = [3, 1, 4, 2];
-numbers.sort((a, b) => a - b); // [1, 2, 3, 4] (ascending order)
+numbers.sort((a, b) => a - b);
+// [1, 2, 3, 4] (ascending order)
 ```
 
 ## 3. Advantages of HOFs
