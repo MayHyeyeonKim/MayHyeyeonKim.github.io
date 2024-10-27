@@ -10,13 +10,13 @@ search: true
 
 Higher-Order Functions (HOFs) are a fundamental concept in JavaScript, enabling powerful, reusable code. Let’s dive into what HOFs are, why they’re useful, and how to use them effectively.
 
-In javaScript, Higher-Order Functions (HOFs) are functions that either take other functions as arguments or return functions as results. </br>
-They are fundamental in functional programming, enhancing code readability and reusability. </br>
+In javaScript, Higher-Order Functions (HOFs) are functions that either take other functions as arguments or return functions as results. <br>
+They are fundamental in functional programming, enhancing code readability and reusability.<br>
 Here are common examples of HOFs include `map`, `filter`, and `reduce`.
 
 ## 1. Concept of HOFs
 
-A HOF can either return a function or accept a function as a parameter to perform a specific operation. </br>
+A HOF can either return a function or accept a function as a parameter to perform a specific operation.<br>
 In short, HOFs are functions that work with other functions.
 
 ```javascript
@@ -32,7 +32,7 @@ greeting("Alice"); //Hello Alice!
 
 ## 2. Common HOFs
 
-**map**</br>
+**map**<br>
 applies a function to each element of an araay and returns a new array.
 
 ```javascript
@@ -42,7 +42,7 @@ console.log(numberMessages);
 // ["Number 1 spotted!", "Number 2 spotted!", "Number 3 spotted!", "Number 4 spotted!", "Number 5 spotted!"]
 ```
 
-**forEach**</br>
+**forEach**<br>
 executes a function for each element in an array but does not return a new array, just performs a task.
 
 ```javascript
@@ -50,7 +50,7 @@ const numbers = [1, 2, 3, 4, 5];
 numbers.forEach((num) => console.log(num * 2)); // 2, 4, 6
 ```
 
-**filter**</br>
+**filter**<br>
 returns a new array with elements that satisfy a given condition.
 
 ```javascript
@@ -59,7 +59,7 @@ const evens = numbers.filter((num) => num % 2 === 0);
 console.log(evens); // [2,4]
 ```
 
-**reduce**</br>
+**reduce**<br>
 reduces all elements of an array to a single accumulated value. (단일 누적값으로 줄여서 reduce라는 용어를 씀)
 
 ```javascript
@@ -68,7 +68,7 @@ const sum = numbers.reduce((acc, num) => acc + num, 0);
 console.log(sum); // 10
 ```
 
-**some**</br>
+**some**<br>
 checks if at least one element in the array meets a condition, returning `true` if so; otherwise, `false`.
 
 ```javascript
@@ -76,7 +76,7 @@ const numbers = [1, 2, 3];
 const hasEven = numbers.some((num) => num % 2 === 0); // true (2 is even)
 ```
 
-**every**</br>
+**every**<br>
 checks if all elements meet a condition, returning `true` only if they all do; otherwise, `false`.
 
 ```javascript
@@ -84,7 +84,7 @@ const numbers = [1, 2, 3];
 const allPositive = numbers.every((num) => num > 0); // true (all numbers are positive)
 ```
 
-**find**</br>
+**find**<br>
 returns the first element that satisfies a condition, or `undefined` if none meet it.
 
 ```javascript
@@ -92,8 +92,8 @@ const numbers = [1, 2, 3, 4];
 const firstEven = numbers.find((num) => num % 2 === 0); // 2 (first even number)
 ```
 
-**sort**</br>
-sorts the array elements. </br>
+**sort**<br>
+sorts the array elements. <br>
 Note: sort modifies the original array.
 
 ```javascript
