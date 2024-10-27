@@ -19,16 +19,15 @@ Here are common examples of HOFs include `map`, `filter`, and `reduce`.
 A HOF can either return a function or accept a function as a parameter to perform a specific operation. </br>
 In short, HOFs are functions that work with other functions.
 
-```JavaScript
-function greet(){
-    return function(name){
-        console.log(`Hello, ${name}!`)
-    };
+```javascript
+function greet() {
+  return function (name) {
+    console.log(`Hello, ${name}!`);
+  };
 }
 
 const greeting = greet();
 greeting("Alice"); //Hello Alice!
-
 ```
 
 ## 2. Common HOFs
