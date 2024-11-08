@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "React Hooks Overview: Understanding the Core 12"
+title: "React Hooks Overview Understanding the Core 12"
 categories: [Frontend]
 tags: [JavaScript, React, Hooks, Programming, Frontend]
 search: true
