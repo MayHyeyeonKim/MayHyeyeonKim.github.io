@@ -6,7 +6,7 @@ tags: [React, State-Management, Redux, Toolkit, RTK, React-Query]
 search: true
 ---
 
-> This code is available on [ReactToolkitQuery repo](https://github.com/MayHyeyeonKim/ReactToolkitQuery). Feel free to check it out!
+This code is available on [ReactToolkitQuery repo](https://github.com/MayHyeyeonKim/ReactToolkitQuery). Feel free to check it out!
 
 # Redux Toolkit Query (RTK Query)
 
@@ -299,5 +299,7 @@ In this tutorial, we explored how to use Redux Toolkit Query to manage server-si
 - RTK Query simplifies data fetching by automatically managing the request lifecycle and caching.
 - Redux slices help manage local state in a clean and predictable way.
 - Combining RTK Query with Redux slices allows you to handle both server-side and local state seamlessly in your React app.
+
+---
 
 ✔️ This code and complete example can be found on my [ReactToolkitQuery repo](https://github.com/MayHyeyeonKim/ReactToolkitQuery).
