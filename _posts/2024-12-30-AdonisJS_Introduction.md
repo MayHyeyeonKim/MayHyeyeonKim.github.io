@@ -87,6 +87,7 @@ Follow these steps to quickly set up an AdonisJS project and get started:
 ### Setting Up AdonisJS
 
 Follow these steps to set up an AdonisJS project with the **"api" starter kit**.
+<br>
 
 **Install the AdonisJS CLI**
 
@@ -97,7 +98,7 @@ npm init adonis-ts-app@latest <my-project-name>
 ```
 
 When prompted, choose the "Web API" or "Fullstack" boilerplate based on your project needs.
-
+<br>
 **Navigate to the Project Directory**
 
 Move into the newly created project directory:
@@ -105,6 +106,8 @@ Move into the newly created project directory:
 ```bash
 cd my-project
 ```
+
+<br>
 
 **Install Dependencies**
 
@@ -118,6 +121,8 @@ npm install
 yarn
 ```
 
+<br>
+
 **Configure the Environment**
 
 Copy the` .env.example` file to `.env`:
@@ -127,6 +132,7 @@ cp .env.example .env
 ```
 
 Update the .env file with your database credentials and other necessary environment variables.
+<br>
 
 **Run the Development Server**
 
@@ -137,6 +143,7 @@ npm run dev
 ```
 
 The application will be available at http://127.0.0.1:3333 by default.
+<br>
 
 **Example Project Structure**
 
@@ -152,6 +159,8 @@ my-project/
 ├── package.json       # Project dependencies and scripts
 └── server.ts          # Application entry point
 ```
+
+<br>
 
 **Test the Setup**
 
