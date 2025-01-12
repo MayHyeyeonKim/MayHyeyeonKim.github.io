@@ -85,7 +85,7 @@ AdonisJS is a fully-featured and comprehensive Node.js framework that simplifies
 Follow these steps to set up an AdonisJS project with the **"api" starter kit**.
 <br>
 
-1. **Install the AdonisJS CLI**
+**Install the AdonisJS CLI**
 
 - Use the `npm init adonis-ts-app@latest` command to scaffold a new AdonisJS project:
 
@@ -96,7 +96,7 @@ npm init adonis-ts-app@latest <my-project-name>
 When prompted, choose the "Web API" or "Fullstack" boilerplate based on your project needs.
 <br>
 
-2. **Navigate to the Project Directory**
+**Navigate to the Project Directory**
 
 Move into the newly created project directory:
 
@@ -106,7 +106,7 @@ cd my-project
 
 <br>
 
-3. **Install Dependencies**
+**Install Dependencies**
 
 - Install the required dependencies using npm:
 
@@ -120,7 +120,7 @@ yarn
 
 <br>
 
-4. **Configure the Environment**
+**Configure the Environment**
 
 - Copy the` .env.example` file to `.env`:
 
@@ -131,7 +131,7 @@ cp .env.example .env
 Update the .env file with your database credentials and other necessary environment variables.
 <br>
 
-5. **Run the Development Server**
+**Run the Development Server**
 
 - Start the AdonisJS development server:
 
@@ -142,7 +142,7 @@ npm run dev
 The application will be available at http://127.0.0.1:3333 by default.
 <br>
 
-6. **Example Project Structure**
+**Example Project Structure**
 
 - Here’s a brief overview of the project structure when using the api starter kit:
 
@@ -159,6 +159,6 @@ my-project/
 
 <br>
 
-7. **Test the Setup**
+**Test the Setup**
 
 - Navigate to the default route in your browser or use a tool like Postman to test the API. By default, the "api" starter kit does not include frontend code, making it ideal for building RESTful APIs or backends for mobile applications.
