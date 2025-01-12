@@ -88,7 +88,7 @@ Follow these steps to quickly set up an AdonisJS project and get started:
 
 Follow these steps to set up an AdonisJS project with the **"api" starter kit**.
 
-1. Install the AdonisJS CLI
+#### 1. Install the AdonisJS CLI
 
 Use the `npm init adonis-ts-app@latest` command to scaffold a new AdonisJS project:
 
@@ -98,17 +98,17 @@ npm init adonis-ts-app@latest <my-project-name>
 
 When prompted, choose the "Web API" or "Fullstack" boilerplate based on your project needs.
 
-2. Navigate to the Project Directory
+#### 2. Navigate to the Project Directory
 
-   Move into the newly created project directory:
+Move into the newly created project directory:
 
 ```bash
 cd my-project
 ```
 
-3. Install Dependencies
+#### 3. Install Dependencies
 
-   Install the required dependencies using npm:
+Install the required dependencies using npm:
 
 ```bash
 npm install
@@ -118,7 +118,7 @@ npm install
 yarn
 ```
 
-4.  Configure the Environment
+#### 4. Configure the Environment
 
     Copy the` .env.example` file to `.env`:
 
@@ -128,8 +128,9 @@ cp .env.example .env
 
 Update the .env file with your database credentials and other necessary environment variables.
 
-5. Run the Development Server
-   Start the AdonisJS development server:
+#### 5. Run the Development Server
+
+Start the AdonisJS development server:
 
 ```bash
 npm run dev
@@ -137,8 +138,9 @@ npm run dev
 
 The application will be available at http://127.0.0.1:3333 by default.
 
-6. Example Project Structure
-   Here’s a brief overview of the project structure when using the api starter kit:
+#### 6. Example Project Structure
+
+Here’s a brief overview of the project structure when using the api starter kit:
 
 ```bash
 my-project/
@@ -151,6 +153,6 @@ my-project/
 └── server.ts          # Application entry point
 ```
 
-7. Test the Setup
+#### 7. Test the Setup
 
-   Navigate to the default route in your browser or use a tool like Postman to test the API. By default, the "api" starter kit does not include frontend code, making it ideal for building RESTful APIs or backends for mobile applications.
+Navigate to the default route in your browser or use a tool like Postman to test the API. By default, the "api" starter kit does not include frontend code, making it ideal for building RESTful APIs or backends for mobile applications.
