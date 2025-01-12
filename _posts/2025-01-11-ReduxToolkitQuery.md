@@ -6,6 +6,8 @@ tags: [React, State-Management, Redux, Toolkit, RTK, React-Query]
 search: true
 ---
 
+In my current work, I use Redux Toolkit Query for efficient state management and data fetching. Let’s dive into how it works and how you can use it in your own projects!
+
 This code is available on [ReactToolkitQuery repo](https://github.com/MayHyeyeonKim/ReactToolkitQuery). Feel free to check it out!
 
 # Redux Toolkit Query (RTK Query)
