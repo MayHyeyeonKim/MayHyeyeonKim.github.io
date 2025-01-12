@@ -82,10 +82,6 @@ AdonisJS is a fully-featured and comprehensive Node.js framework that simplifies
 
 ### Setting Up AdonisJS
 
-Follow these steps to quickly set up an AdonisJS project and get started:
-
-### Setting Up AdonisJS
-
 Follow these steps to set up an AdonisJS project with the **"api" starter kit**.
 <br>
 
