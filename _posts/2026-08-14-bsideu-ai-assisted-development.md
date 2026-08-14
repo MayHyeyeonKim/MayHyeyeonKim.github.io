@@ -5,7 +5,6 @@ description: "Lessons from documenting and organizing AI-assisted development fo
 categories: [AI, Development]
 tags: [AI-assisted development, AI workflow, agentic AI, team collaboration, BSideU]
 search: true
-permalink: /bsideu-ai-assisted-development/
 ---
 
 BSideU is a team side project for people who want to find collaborators and build side projects together. The product is still in progress, but the development process has already taught me an important lesson:
@@ -122,4 +121,3 @@ Because BSideU is still in progress, the workflow will continue to evolve with t
 - Documenting examples of successful and unsuccessful AI-assisted changes
 
 This project has reinforced my interest in building practical AI workflows: systems that help teams work with more clarity while keeping developers responsible for the decisions that matter.
-
